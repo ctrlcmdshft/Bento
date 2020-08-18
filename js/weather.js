@@ -2,10 +2,10 @@ const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
 
-// App data fahrenheit or celsius
+// App
 const weather = {};
 weather.temperature = {
-    unit: 'fahrenheit',
+    unit: 'celsius',
 };
 
 const KELVIN = 273;
